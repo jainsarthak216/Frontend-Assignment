@@ -1,0 +1,176 @@
+[
+    {
+        "dayId": 1,
+        "date": "24 July 2020",
+        "venue": "Room 1",
+        "slots": [
+            {
+                "startTime": "09:30am",
+                "endTime": "10:30am",
+                "event": "Registration & Breakfast"
+            },
+            {
+                "startTime": "10:30am",
+                "endTime": "11:00am",
+                "event": "Digital World Event Information",
+                "speakers": [
+                    "Ajay Core",
+                    "Mark Wesley",
+                    "Tom Holland"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "11:00am",
+                "endTime": "11:30am",
+                "event": "Reinventing Experiences",
+                "speakers": [
+                    "Emma Stone"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "11:30am",
+                "endTime": "01:30pm",
+                "event": "Lunch Break"
+            },
+            {
+                "startTime": "02:00pm",
+                "endTime": "02:30pm",
+                "event": "Discussion: innovation and Technological Entrepreneurship",
+                "speakers": [
+                    "Eric Bana",
+                    "John Smith"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "03:00pm",
+                "endTime": "04:30pm",
+                "event": "Explorations Of New Approaches To Creative Leadership",
+                "speakers": [
+                    "Mark Wesley",
+                    "Daniel fernandes",
+                    "Cecilia Qvist"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            }
+        ]
+    },
+    {
+        "dayId": 2,
+        "date": "27 July 2020",
+        "venue": "Room 1",
+        "slots": [
+            {
+                "startTime": "09:30am",
+                "endTime": "10:30am",
+                "event": "Registration & Breakfast"
+            },
+            {
+                "startTime": "10:30am",
+                "endTime": "11:00am",
+                "event": "Digital World Event Information",
+                "speakers": [
+                    "Cecilia Qvist",
+                    "Wiliam Robben"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "11:00am",
+                "endTime": "11:30am",
+                "event": "Reinventing Experiences",
+                "speakers": [
+                    "Eric Bana",
+                    "Daniel fernandes"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "11:30am",
+                "endTime": "01:30pm",
+                "event": "Lunch Break"
+            },
+            {
+                "startTime": "02:00pm",
+                "endTime": "02:30pm",
+                "event": "Discussion: innovation and Technological Entrepreneurship",
+                "speakers": [
+                    "Ajay Core",
+                    "Emma Stone"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "03:00pm",
+                "endTime": "04:30pm",
+                "event": "Explorations Of New Approaches To Creative Leadership",
+                "speakers": [
+                    "Mark Wesley",
+                    "Daniel fernandes"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            }
+        ]
+    },
+    {
+        "dayId": 3,
+        "date": "30 July 2020",
+        "venue": "Room 2",
+        "slots": [
+            {
+                "startTime": "09:30am",
+                "endTime": "10:30am",
+                "event": "Registration & Breakfast"
+            },
+            {
+                "startTime": "10:30am",
+                "endTime": "11:00am",
+                "event": "Digital World Event Information",
+                "speakers": [
+                    "Mark Wesley",
+                    "Daniel fernandes"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "11:00am",
+                "endTime": "11:30am",
+                "event": "Reinventing Experiences",
+                "speakers": [
+                    "Ajay Core",
+                    "Cecilia Qvist"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "11:30am",
+                "endTime": "01:30pm",
+                "event": "Lunch Break"
+            },
+            {
+                "startTime": "02:00pm",
+                "endTime": "02:30pm",
+                "event": "Discussion: innovation and Technological Entrepreneurship",
+                "speakers": [
+                    "John Smith",
+                    "Mark Wesley",
+                    "Daniel fernandes"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            },
+            {
+                "startTime": "03:00pm",
+                "endTime": "04:30pm",
+                "event": "Explorations Of New Approaches To Creative Leadership",
+                "speakers": [
+                    "Tom Hoand",
+                    "Emma Stone",
+                    "Mark Wesley"
+                ],
+                "description": "How you transform your business as technology, babits industry dynamics change? Find out from those leading the charge"
+            }
+        ]
+    }
+]
