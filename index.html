@@ -12,7 +12,7 @@
     <title>Spker - Conference & Event</title>
 </head>
 
-<body>
+<body id="body">
     <section class="navbar">
         <div class="nav">
             <a href="#"><img id="envato" src="download.png"></a>
@@ -21,6 +21,36 @@
             </div>
         </div>
     </section>
+    
+    <div id="contact" class="contact">
+        <i id="plus" class="fa fa-plus" onclick="closeForm()" aria-hidden="true"></i>
+        <h1>Contact Form 1</h1>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            <div class="formdesign" id="name">
+                <input type="text" name="fname" placeholder="Your Name" required><i><span
+                        class="formerror"></span></i>
+            </div>
+            <div class="formdesign" id="email">
+                <input type="email" name="femail" placeholder="Email" required><i><span
+                        class="formerror"></span></i>
+            </div>
+            <div class="formdesign" id="phone">
+                <input type="phone" name="fphone" placeholder="Phone Number" required><i><span
+                        class="formerror"></span></i>
+            </div>
+            <div class="formdesign" id="ticket">
+                <select name="fticket">
+                    <option value="Ticket 1">Ticket 1</option>
+                    <option value="Ticket 2">Ticket 2</option>
+                    <option value="Ticket 3">Ticket 3</option>
+                    <option value="Ticket 4">Ticket 4</option>
+                </select>
+            </div>
+            <div class="btndiv">
+                <input class="btn-grad btn" type="submit" value="REGISTER NOW">
+            </div>
+        </form>
+    </div>
 
     <section class="home">
         <div class="menu">
@@ -75,7 +105,7 @@
                 </div>
             </div>
             <div class="btn">
-                <button class="btn-grad btn">Get Tickets</button>
+                <button class="btn-grad btn" onclick="contactForm()">Get Tickets</button>
             </div>
         </div>
         <div class="heading">
@@ -261,8 +291,7 @@
             </div>
         </div>
     </section> -->
-    
-    
+
     <section class="schedule">
         <div class="heading">
             <h5>SCHEDULE<br>DETAILS</h5>
@@ -296,7 +325,11 @@
                     </div>
                     <div class="title">
                         <h3>DIGITAL WORLD EVENT INFORMATION</h3>
-                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <p class="desc" id="desc1">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus1" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
@@ -308,6 +341,11 @@
                     </div>
                     <div class="title">
                         <h3>REINVENTING EXPERIENCES</h3>
+                        <p class="desc" id="desc2">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus2" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
@@ -329,17 +367,29 @@
                     </div>
                     <div class="title">
                         <h3>DISCUSSION: INNOVATION AND TECHNOLOGOGICAL ENTREPRENEURSHIP</h3>
+                        <p class="desc" id="desc3">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus3" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
                 <div class="miniSchedule">
                     <div class="timing">
                         <p><i class="fa fa-clock-o"></i> 03:00pm - 04:30pm</p>
-                        <p><i class="fa-solid fa-location-dot"></i><i class="fa fa-map-marker" aria-hidden="true"></i> Room 1</p>
-                        <p><i class="fa fa-microphone"></i> By <span>Mark Wesley, Daniel Fernandes, Cecilia Qvist</span></p>
+                        <p><i class="fa-solid fa-location-dot"></i><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            Room 1</p>
+                        <p><i class="fa fa-microphone"></i> By <span>Mark Wesley, Daniel Fernandes, Cecilia Qvist</span>
+                        </p>
                     </div>
                     <div class="title">
                         <h3>EXPLORATION OF NEW APPROACHES TO CREATIVE LEADERSHIP</h3>
+                        <p class="desc" id="desc4">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus4" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -373,6 +423,11 @@
                     </div>
                     <div class="title">
                         <h3>DIGITAL WORLD EVENT INFORMATION</h3>
+                        <p class="desc" id="desc5">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus5" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
@@ -384,6 +439,11 @@
                     </div>
                     <div class="title">
                         <h3>REINVENTING EXPERIENCES</h3>
+                        <p class="desc" id="desc6">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus6" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
@@ -405,6 +465,11 @@
                     </div>
                     <div class="title">
                         <h3>DISCUSSION: INNOVATION AND TECHNOLOGOGICAL ENTREPRENEURSHIP</h3>
+                        <p class="desc" id="desc7">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus7" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
@@ -416,6 +481,11 @@
                     </div>
                     <div class="title">
                         <h3>EXPLORATION OF NEW APPROACHES TO CREATIVE LEADERSHIP</h3>
+                        <p class="desc" id="desc8">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus8" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -449,6 +519,11 @@
                     </div>
                     <div class="title">
                         <h3>DIGITAL WORLD EVENT INFORMATION</h3>
+                        <p class="desc" id="desc9">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plus9" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
@@ -460,6 +535,11 @@
                     </div>
                     <div class="title">
                         <h3>REINVENTING EXPERIENCES</h3>
+                        <p class="desc" id="descA">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plusA" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
@@ -477,10 +557,16 @@
                     <div class="timing">
                         <p><i class="fa fa-clock-o"></i> 02:00pm - 02:30pm</p>
                         <p><i class="fa fa-map-marker" aria-hidden="true"></i> Room 2</p>
-                        <p><i class="fa fa-microphone"></i> By <span>John Smith, Mark Wesley, Daniel fernandes</span></p>
+                        <p><i class="fa fa-microphone"></i> By <span>John Smith, Mark Wesley, Daniel fernandes</span>
+                        </p>
                     </div>
                     <div class="title">
                         <h3>DISCUSSION: INNOVATION AND TECHNOLOGOGICAL ENTREPRENEURSHIP</h3>
+                        <p class="desc" id="descB">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plusB" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
                 <hr style="border: 1px dashed #dedede;">
@@ -492,13 +578,28 @@
                     </div>
                     <div class="title">
                         <h3>EXPLORATION OF NEW APPROACHES TO CREATIVE LEADERSHIP</h3>
+                        <p class="desc" id="descC">How you transform your business as technology, babits industry
+                            dynamics change? Find out from those leading the charge</p>
+                    </div>
+                    <div class="plus">
+                        <i id="plusC" class="fa fa-plus" onclick="description(this.id)" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- <section class="schedule">
+        <div id="timeline"></div>
+    </section> -->
+
     <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (() => {
+            emailjs.init('Z-FNcdFIzaZAElBvH');
+        })();
+    </script>
 </body>
 
 </html>

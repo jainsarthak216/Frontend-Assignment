@@ -44,6 +44,72 @@
   cursor: pointer;
 }
 
+.contact {
+  width: 45%;
+  height: 80%;
+  position: fixed;
+  margin-left: 400px;
+  margin-top: 100px;
+  display: none;
+  text-align: center;
+  border-top: 5px solid #ec4963;
+  background-color: white;
+  z-index: 1;
+}
+
+.contact #plus {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contact h1 {
+  color: #ec4963;
+  font-family: 'Staatliches';
+  padding: 60px 30px;
+}
+
+.contact form .formdesign {
+  font-size: 20px;
+}
+
+.contact form .formdesign input, .contact form .formdesign select {
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+  width: 60%;
+  padding: 18px 20px;
+  margin: 12px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.contact form .formdesign input:focus, .contact form .formdesign select:focus {
+  outline: 1px solid #ec4963;
+}
+
+.contact form .formdesign span {
+  color: red;
+}
+
+.contact form #ticket option {
+  color: grey;
+}
+
+.contact form .btndiv {
+  width: 100%;
+  padding: 15px 60px;
+  text-align: center;
+}
+
+.contact form .btndiv input {
+  float: left;
+  margin-left: 200px;
+}
+
 .home {
   height: 100vh;
   width: 100%;
@@ -433,12 +499,33 @@
 .schedule .banner .date .miniSchedule .title {
   width: 78%;
   padding-left: 30px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .schedule .banner .date .miniSchedule .title h3 {
   font-family: "Staatliches", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400px;
+}
+
+.schedule .banner .date .miniSchedule .title .desc {
+  color: grey;
+  font-size: 14px;
+  margin-top: 30px;
+  display: none;
+}
+
+.schedule .banner .date .miniSchedule .plus {
+  width: 3%;
+  height: 25px;
+}
+
+.schedule .banner .date .miniSchedule .plus #plus {
+  font-size: 25px;
+}
+
+.schedule .banner .date .miniSchedule .plus:hover {
+  cursor: pointer;
+  color: #ec4963;
 }
 
 .schedule .banner .date .miniSchedule .active {
@@ -453,6 +540,7 @@
 
 .btn {
   float: right;
+  cursor: pointer;
 }
 
 .btn-grad {

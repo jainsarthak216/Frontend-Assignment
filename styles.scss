@@ -40,6 +40,75 @@
     }
 }
 
+.contact{
+    width: 45%;
+    height: 80%;
+    position: fixed;
+    margin-left: 400px;
+    margin-top: 100px;
+    display: none;
+    text-align: center;
+    border-top: 5px solid #ec4963;
+    background-color: white;
+    z-index: 1;
+    
+    #plus {
+        transform: rotate(45deg);
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    h1{
+        color: #ec4963;
+        font-family: 'Staatliches';
+        padding: 60px 30px;
+    }
+
+    form {
+        
+        .formdesign {
+            font-size: 20px;
+            
+            input, select {
+                filter: brightness(95%);
+                width: 60%;
+                padding: 18px 20px;
+                margin: 12px;
+                border: none;
+                outline: none;
+                font-size: 15px;
+            }
+
+            input:focus, select:focus {
+                outline: 1px solid #ec4963;
+            }
+            
+            span {
+                color: red;
+            }
+        }
+
+        #ticket {
+            option {
+                color: grey;
+            }
+        }
+
+        .btndiv {
+            width: 100%;
+            padding: 15px 60px;
+            text-align: center;
+
+            input {
+                float: left;
+                margin-left: 200px;
+            }
+        }
+    }
+}
+
 .home {
     height: 100vh;
     width: 100%;
@@ -141,7 +210,7 @@
             cursor: pointer;
         }
     }
-
+    
     .heading {
         font-size: 70px;
         font-weight: bold;
@@ -518,12 +587,33 @@
                 .title {
                     width: 78%;
                     padding-left: 30px;
-                    font-size: 1.4rem;
+                    font-size: 1.2rem;
                     
                     h3 {
                         font-family: "Staatliches", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
                         font-weight: 400px;
                     }
+
+                    .desc {
+                        color: grey;
+                        font-size: 14px;
+                        margin-top: 30px;
+                        display: none;
+                    }
+                }
+
+                .plus {
+                    width: 3%;
+                    height: 25px;
+
+                    #plus {
+                        font-size: 25px;
+                    }
+                }
+                
+                .plus:hover {
+                    cursor: pointer;
+                    color: #ec4963;
                 }
 
                 .active{
@@ -541,6 +631,7 @@
 
 .btn {
     float: right;
+    cursor: pointer;
 }
 
 .btn-grad {
